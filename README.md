@@ -1,17 +1,17 @@
 ## About the application
 
-This is the actual implementation of a sample employee project provided on Oracle's official [site](https://docs.oracle.com/database/121/TDDDG/sample_app.htm#TDDDG301). The application is intended for two kinds of users in a company:
+This is the implementation of a sample employee project provided on Oracle's official [site](https://docs.oracle.com/database/121/TDDDG/sample_app.htm#TDDDG301). The application is intended for two kinds of users in a company:
 
 * Typical users (managers of employees)
 * Application administrators
 
-### Tools/technologies used:
+#### Tools/technologies used
 
 * SQL Developer
 * livesql provided by Oracle
 * Oracle 10g, which is lightweight, was run on Docker [image](https://hub.docker.com/r/sandersliu/docker-oracle-xe-10g).
 
-### Purpose of the Application
+#### Purpose of the Application
 
 **Typical users can do the following:**
 
@@ -27,3 +27,8 @@ This is the actual implementation of a sample employee project provided on Oracl
 * Add a new job
 * Change the ID, name, or manager of an existing department
 * Add a new department
+
+#### Note:
+
+* This is not exactly the copy paste. it has been made generic as much as possible.
+* Some of the functions are not supported in oracle 10g, so they have been replicated using other functions. For e.g. UNPIVOT
