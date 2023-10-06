@@ -1,3 +1,6 @@
+> [!NOTE]  
+>
+
 ## About the application
 
 This is the implementation of a sample employee project provided on Oracle's official [site](https://docs.oracle.com/database/121/TDDDG/sample_app.htm#TDDDG301). The application is intended for two kinds of users in a company:
